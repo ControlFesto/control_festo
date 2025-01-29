@@ -67,7 +67,7 @@
             <p>¡Hola!</p>
             <p>Tu código de verificación es:</p>
             <div class="code">{{ $code }}</div>
-            <p>Por favor, usa este código para ingresar a CONTROL FESTO. Este código es válido solo por un tiempo limitado.</p>
+            <p>Por favor, usa este código para ingresar a CONTROL FESTO. Este código es válido solo por 5 minutos.</p>
         </div>
         <div class="footer">
             <p>Este correo fue generado automáticamente. Por favor, no respondas a este mensaje.</p>

@@ -26,31 +26,31 @@ class DatabaseSeeder extends Seeder
 
         // Crear usuarios y asignarles roles
         $user1 = User::firstOrCreate([
-            'name' => 'Orlando',
-            'lastname' => 'Castro',
-            'email' => 'orlandocastro@gmail.com',
-            'user_identity' => '1023456789',
-            'telefono' => '312548648',
+            'name' => 'Instructor',
+            'lastname' => 'Sena',
+            'email' => 'instructorexample@gmail.com',
+            'user_identity' => '1000456',
+            'telefono' => '3000000000',
             'user_estado' => 'activo' 
         ]);
         $user1->assignRole($instructorRole);
 
         $user2 = User::firstOrCreate([
-            'name' => 'Salome',
-            'lastname' => 'Lievano',
-            'email' => 'salome26u.u@gmail.com',
-            'user_identity' => '1070386098',
-            'telefono' => '3043035695',
+            'name' => 'Cuentadante',
+            'lastname' => 'Sena',
+            'email' => 'cuentadanteexample@gmail.com',
+            'user_identity' => '1000045',
+            'telefono' => '300000009',
             'user_estado' => 'activo'  
         ]);
         $user2->assignRole($cuentadanteRole);
 
         $user3 = User::firstOrCreate([
-            'name' => 'Lesly',
-            'lastname' => 'Lievano',
-            'email' => 'lesly@gmail.com',
-            'user_identity' => '1070386099',
-            'telefono' => '3102511208',
+            'name' => 'Monitor',
+            'lastname' => 'Sena',
+            'email' => 'monitorexample@gmail.com',
+            'user_identity' => '10040000',
+            'telefono' => '30000001',
             'user_estado' => 'activo'  
         ]);
         $user3->assignRole($monitorRole);

@@ -89,6 +89,23 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::get('/crearMonitor', [UserController::class, 'mostrarFormularioCrearMonitor'])->name('mostrarFormularioCrearMonitor');
     Route::post('/crearMonitor', [UserController::class, 'crearMonitor'])->name('crearMonitor');
 
+    // web.php
+    Route::get('/cargar-mas-herramientas', function () {
+        $start = request()->input('start', 0); // Comienza desde el índice 0
+        $limit = request()->input('limit', 12); // Limita el número de resultados a 12
+        $herramientas = \App\Models\Herramienta::skip($start)->take($limit)->get(); // Cargar las herramientas
+        
+        // Verifica que las herramientas se carguen correctamente
+        if ($herramientas->isEmpty()) {
+            return response()->json(['error' => 'No hay herramientas disponibles']);
+        }
+    
+        // Devuelve las herramientas en formato JSON
+        return response()->json([
+            'herramientas' => $herramientas
+        ]);
+    });
+
     Route::post('/logout', [AuthController::class, 'destroy'])->middleware('web')->name('logout');
 
 });

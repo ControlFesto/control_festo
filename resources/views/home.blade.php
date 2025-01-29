@@ -17,39 +17,6 @@
     <link rel="icon" href="{{ asset('img/logosenavv.png?v=1') }}" type="image/png" >
     <title>CONTROL FESTO</title>
     <style>
-            /*@keyframes changeImages {
-                0% {
-                    background-image: url('img/home/bg1.jpg');
-                }
-                33% {
-                    background-image: url('img/home/bg2.jpg');
-                }
-                66% {
-                    background-image: url('img/home/bg3.jpg');
-                }
-                100% {
-                    background-image: url('img/home/bg1.jpg');
-                }
-            }
-
-            @keyframes fadeInOut {
-                0% {
-                    opacity: 0;
-                }
-                33%{
-                    opacity: 0;
-                }
-                75% {
-                    opacity: 1;
-                }
-                90% {
-                    opacity: 1;
-                }
-                100% {
-                    opacity: 0;
-                }
-            }*/
-
             .card {
             position: relative;
             overflow: hidden; /* Evita que la imagen de fondo se desborde */
@@ -135,7 +102,7 @@
     </nav>
 <section id="section1" class="section1">
     <div class="content-wrapper">
-<!--Herramientas-->
+    <!--Herramientas-->
     <div class="text-content">
     <div id="fondo" style=" background-color: #39a900; overflow-x: hidden;">
         <div class="row">
@@ -144,7 +111,7 @@
                 <div class="carousel-inner">
                         <!-- Tarjeta 1 -->
                         <div class="carousel-item active" style="padding-top: 90px;">
-                        <div class="card" id="card1" style="background: url('img/home/card1.jpg') no-repeat center center; background-size: cover; height: 280px !important;">
+                        <div class="card" id="card1" style="background: url('img/home/card1.jpg') no-repeat center center; background-size: cover; height: 260px !important;  border-radius: 5px">
                             <div class="card-body position-relative bottom-0 start-0 ">
                             <h5 class="card-title mb-2 fw-bold" style="color: white;">Préstamo de recursos</h5>
                             <p class="fw-semibold" style="color: white;">Permite el préstamo de recursos a los instructores que lo requieran.</p>
@@ -153,7 +120,7 @@
                         </div>
                         <!-- Tarjeta 2 -->
                         <div class="carousel-item" style="padding-top: 90px;">
-                        <div class="card" style="background: url('img/home/card2.jpg') no-repeat center center; background-size: cover; height: 280px !important;">
+                        <div class="card" style="background: url('img/home/card2.jpg') no-repeat center center; background-size: cover; height: 260px !important; border-radius: 5px;">
                             <div class="card-body position-relative bottom-0 start-0 ">
                             <h5 class="card-title mb-2 fw-bold" style="color: white;">Incentivo al desarrollo</h5>
                             <p class="fw-semibold" style="color: white;">Incentiva a cada aprendiz, para que pueda acceder a los beneficios de FESTO.</p>
@@ -163,7 +130,7 @@
                         <!-- Agrega el resto de las tarjetas aquí de forma similar -->
                         <!-- Tarjeta 3 -->
                         <div class="carousel-item" style="padding-top: 90px;">
-                        <div class="card" style="background: url('img/home/card3.avif') no-repeat center center; background-size: cover; height: 280px !important;">
+                        <div class="card" style="background: url('img/home/card3.avif') no-repeat center center; background-size: cover; height: 260px !important; border-radius: 5px;">
                             <div class="card-body position-relative bottom-0 start-0 ">
                             <h5 class="card-title mb-2 fw-bold" style="color: white;">Desarrollo en ambientes</h5>
                             <p class="fw-semibold" style="color: white;">Los ambientes que lo requieran podrán capacitarse con los recursos necesarios.</p>
@@ -172,7 +139,7 @@
                         </div>
                         <!-- Tarjeta 4 -->
                         <div class="carousel-item" style="padding-top: 90px;">
-                        <div class="card" style="background: url('img/home/card4.jpg') no-repeat center center; background-size: cover; height: 280px !important;">
+                        <div class="card" style="background: url('img/home/card4.jpg') no-repeat center center; background-size: cover; height: 260px !important; border-radius: 5px;">
                             <div class="card-body position-relative bottom-0 start-0 ">
                             <h5 class="card-title mb-2 fw-bold" style="color: white;">Herramientas Manuales</h5>
                             <p class="fw-semibold" style="color: white;">Podrán realizarse préstamos de las herramientas manuales que se requieran.</p>
@@ -181,7 +148,7 @@
                         </div>
                         <!-- Tarjeta 5 -->
                         <div class="carousel-item" style="padding-top: 90px;">
-                        <div class="card" style="background: url('img/home/card5.jpg') no-repeat center center; background-size: cover; height: 280px !important;">
+                        <div class="card" style="background: url('img/home/card5.jpg') no-repeat center center; background-size: cover; height: 260px !important; border-radius: 5px;">
                             <div class="card-body position-relative bottom-0 start-0 ">
                             <h5 class="card-title mb-2 fw-bold" style="color: white;">Control Entrada - Salida</h5>
                             <p class="fw-semibold" style="color: white;">Se llevará un control de todos los préstamos que se realicen en el área de FESTO.</p>
@@ -190,7 +157,7 @@
                         </div>
                         <!-- Tarjeta 6 -->
                         <div class="carousel-item" style="padding-top: 90px;">
-                        <div class="card" style="background: url('img/home/card6.jpg') no-repeat center center; background-size: cover; height: 280px !important;">
+                        <div class="card" style="background: url('img/home/card6.jpg') no-repeat center center; background-size: cover; height: 260px !important; border-radius: 5px;">
                             <div class="card-body position-relative bottom-0 start-0 ">
                             <h5 class="card-title mb-2 fw-bold" style="color: white;">Herramientas Eléctricas</h5>
                             <p class="fw-semibold" style="color: white;">Podrán realizarse préstamos de las herramientas eléctricas que se requieran.</p>
@@ -209,49 +176,45 @@
         </div>
     </div>
     <h2 class="fw-bold text-center my-5 mx-4" style="color: #39a900;">DISPONIBLE EN CONTROL FESTO</h2>
-    <!--BUSCADOR <form id="searchForm">
-            <div class="input-group">
-                <input type="text" class="form-control" name="nombre" id="searchName" placeholder="Buscar herramienta por nombre" value="{{ request()->input('nombre') }}">
-                
-                <select name="categoria" id="searchCategory" class="form-control">
-                    <option value="">Seleccionar categoría</option>
-                    @foreach($categorias as $categoria)
-                        <option value="{{ $categoria->id }}" {{ request()->input('categoria') == $categoria->id ? 'selected' : '' }}>
-                            {{ $categoria->nombre }}
-                        </option>
-                    @endforeach
-                </select>
-                
-                <button class="btn btn-primary" type="submit">Buscar</button>
-            </div>
-        </form>--->
 
-
-    <!-- Herramientas -->
-            <div class="row" id="herramientasContainer">
-                @foreach($herramientas->take(28) as $herramientaVista) <!-- Limita a 30 elementos -->
-                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4" id="cardh" >
-                        <!-- Añade la clase 'inactive-tool' si la herramienta está inactiva -->
-                        <div class="card herramienta-card {{ $herramientaVista->estado == 'inactivo' ? 'inactive-tool' : '' }}" 
-                        style="background-image: url('{{ Str::startsWith($herramientaVista->imagen, ['http://', 'https://']) ? $herramientaVista->imagen : asset('imagenes/herramientas/' . $herramientaVista->imagen) }}');  height: 200px;">
-                            <div class="card-body">
-                                <div class="row" style="margin-bottom: 25%;">
-                                    <div class="d-flex justify-content-between align-items-start mb-2">
-                                        <div class="d-flex gap-2" style="position: absolute; top: 25px; left: 20px;">
-                                        </div>
-                                    </div>
-                                </div>
-                                <h6 class="card-title fw-bold">{{ $herramientaVista->nombre }}</h6>
-                                    <p class="card-text fw-semibold" style="font-size: 15px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; min-height: 4.8em;">
-                                        {{ $herramientaVista->descripcion }}
-                                    </p>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
-            </div>
+    <!-- Mostrar mensaje si no hay herramientas -->
+    @if($herramientas->isEmpty())
+        <div class="alert alert-warning text-center">
+            No hay herramientas disponibles.
         </div>
+        <style>
+            /* Ocultar barra horizontal cuando no haya herramientas */
+            .row {
+                overflow-x: hidden;
+            }
+        </style>
+    @else
+    <div class="row" id="herramientasContainer">
+        @foreach($herramientas->take(12) as $herramientaVista) <!-- Limita a 12 herramientas inicialmente -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" id="cardh">
+                <div class="card herramienta-card {{ $herramientaVista->estado == 'inactivo' ? 'inactive-tool' : '' }}" 
+                    style="background-image: url('{{ Str::startsWith($herramientaVista->imagen, ['http://', 'https://']) ? $herramientaVista->imagen : asset('imagenes/herramientas/' . $herramientaVista->imagen) }}'); height: 200px;">
+                    <div class="card-body">
+                        <h6 class="card-title fw-bold">{{ $herramientaVista->nombre }}</h6>
+                        <p class="card-text fw-semibold" style="font-size: 15px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; min-height: 4.8em;">
+                            {{ $herramientaVista->descripcion }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        @endforeach
+    </div>
+
+    <!-- Botón para mostrar más -->
+    @if($herramientas->count() > 11)
+        <div class="text-center my-4">
+            <button id="loadMoreBtn" class="btn btn-outline-success" onclick="loadMoreHerramientas()">Ver más</button>
+        </div>
+    @endif
+
+    @endif
+    </div>
+    </div>
 
 <!-- Modal LogIn -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -515,7 +478,6 @@
 </section>
 </div>
 
-
 <script>
     document.getElementById('checkDocumentForm').addEventListener('submit', function() {
         // Mostrar el spinner
@@ -574,8 +536,54 @@
             }
         }
     });
-});
+    });
+</script>
 
+<!-- Script para cargar más herramientas -->
+<script>
+    // Definir la variable currentIndex correctamente
+    let currentIndex = 12;  // Inicialmente, estamos mostrando 12 herramientas
+    const totalHerramientas = @json($herramientas->count()); // Total de herramientas, usando el total de herramientas disponibles
+
+    function loadMoreHerramientas() {
+        if (currentIndex < totalHerramientas) {
+            // Hacer la solicitud AJAX para cargar más herramientas
+            fetch(`/cargar-mas-herramientas?start=${currentIndex}&limit=12`)
+                .then(response => response.json())
+                .then(data => {
+                    // Append las nuevas herramientas al contenedor
+                    const herramientasContainer = document.getElementById('herramientasContainer');
+                    
+                    data.herramientas.forEach(herramienta => {
+                        const herramientaDiv = document.createElement('div');
+                        herramientaDiv.classList.add('col-lg-3', 'col-md-6', 'col-sm-12', 'mb-4');
+                        herramientaDiv.innerHTML = `
+                            <div class="card herramienta-card ${herramienta.estado == 'inactivo' ? 'inactive-tool' : ''}" 
+                                 style="background-image: url('${herramienta.imagen}') ; height: 200px;">
+                                <div class="card-body">
+                                    <h6 class="card-title fw-bold">${herramienta.nombre}</h6>
+                                    <p class="card-text fw-semibold" style="font-size: 15px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; min-height: 4.8em;">
+                                        ${herramienta.descripcion}
+                                    </p>
+                                </div>
+                            </div>
+                        `;
+                        herramientasContainer.appendChild(herramientaDiv);
+                    });
+
+                    // Actualizar el índice para la próxima carga
+                    currentIndex += 12;
+
+                    // Si ya se cargaron todas las herramientas, ocultar el botón "Ver más"
+                    if (currentIndex >= totalHerramientas) {
+                        document.getElementById('loadMoreBtn').style.display = 'none';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error al cargar más herramientas:', error);
+                });
+        }
+    }
 </script>
 
 <script>
@@ -608,50 +616,47 @@
   document.getElementById('modalCarousel').addEventListener('hidden.bs.modal', function () {
     overlay.classList.remove('show'); // Ocultar el overlay cuando el modal se cierre
   });
-};
+ };
 
 
-$(document).ready(function() {
-    // Capturar el evento de envío del formulario
-    $('#searchForm').on('submit', function(e) {
-        e.preventDefault();  // Evitar que se recargue la página
+    $(document).ready(function() {
+        // Capturar el evento de envío del formulario
+        $('#searchForm').on('submit', function(e) {
+            e.preventDefault();  // Evitar que se recargue la página
 
-        var nombre = $('#searchName').val();  // Obtener el valor de búsqueda por nombre
-        var categoria = $('#searchCategory').val();  // Obtener el valor de la categoría seleccionada
+            var nombre = $('#searchName').val();  // Obtener el valor de búsqueda por nombre
+            var categoria = $('#searchCategory').val();  // Obtener el valor de la categoría seleccionada
 
-        $.ajax({
-            url: '{{ route('home') }}',  // Ruta a la que se envía la solicitud AJAX (asegúrate de que sea correcta)
-            method: 'GET',
-            data: {
-                nombre: nombre,
-                categoria: categoria
-            },
-            success: function(response) {
-                // Limpiar el contenedor de herramientas
-                $('#herramientasContainer').html('');
+            $.ajax({
+                url: '{{ route('home') }}',  // Ruta a la que se envía la solicitud AJAX (asegúrate de que sea correcta)
+                method: 'GET',
+                data: {
+                    nombre: nombre,
+                    categoria: categoria
+                },
+                success: function(response) {
+                    // Limpiar el contenedor de herramientas
+                    $('#herramientasContainer').html('');
 
-                // Añadir las herramientas filtradas
-                response.herramientas.forEach(function(herramienta) {
-                    $('#herramientasContainer').append(
-                        '<div class="col-lg-3 col-md-6 col-sm-12 mb-4">' +
-                            '<div class="card herramienta-card ' + (herramienta.estado == 'inactivo' ? 'inactive-tool' : '') + '" style="background-image: url(' + (herramienta.imagen.startsWith('http') ? herramienta.imagen : '/imagenes/herramientas/' + herramienta.imagen) + '); height: 200px;">' +
-                                '<div class="card-body">' +
-                                    '<h6 class="card-title fw-bold">' + herramienta.nombre + '</h6>' +
-                                    '<p class="card-text fw-semibold" style="font-size: 15px;">' + herramienta.descripcion + '</p>' +
+                    // Añadir las herramientas filtradas
+                    response.herramientas.forEach(function(herramienta) {
+                        $('#herramientasContainer').append(
+                            '<div class="col-lg-3 col-md-6 col-sm-12 mb-4">' +
+                                '<div class="card herramienta-card ' + (herramienta.estado == 'inactivo' ? 'inactive-tool' : '') + '" style="background-image: url(' + (herramienta.imagen.startsWith('http') ? herramienta.imagen : '/imagenes/herramientas/' + herramienta.imagen) + '); height: 200px;">' +
+                                    '<div class="card-body">' +
+                                        '<h6 class="card-title fw-bold">' + herramienta.nombre + '</h6>' +
+                                        '<p class="card-text fw-semibold" style="font-size: 15px;">' + herramienta.descripcion + '</p>' +
+                                    '</div>' +
                                 '</div>' +
-                            '</div>' +
-                        '</div>'
-                    );
-                });
-            }
+                            '</div>'
+                        );
+                    });
+                }
+            });
         });
     });
-});
-
-
 
 </script>
-
 <style>
     .code-input {
     text-align: center;
@@ -663,21 +668,25 @@ $(document).ready(function() {
     width: 50px; /* Tamaño del campo */
     height: 60px; /* Altura del campo */
     margin-right: 5px;
-}
+    }
 
-.code-input:focus {
-    outline: none;
-    border-color: #2e7d32; /* Cambia el color de la línea cuando está enfocado */
-}
+    .code-input:focus {
+        outline: none;
+        border-color: #2e7d32; /* Cambia el color de la línea cuando está enfocado */
+    }
 
-.code-input[readonly] {
-    color: #a8a8a8; /* Color gris del asterisco antes de ingresar el código */
-}
+    .code-input[readonly] {
+        color: #a8a8a8; /* Color gris del asterisco antes de ingresar el código */
+    }
 
-.form-control::placeholder {
-    text-align: center;
-}
+    .form-control::placeholder {
+        text-align: center;
+    }
 
+
+    .text-content {
+        overflow-x: hidden !important;
+    }
 </style>
 </body>
 </html>

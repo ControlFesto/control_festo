@@ -705,6 +705,10 @@ body {
         margin-top: 100px;
     }
 
+    .carousel-inner, .carousel{
+        margin-left: 40px;
+    }
+
 }
 
 
